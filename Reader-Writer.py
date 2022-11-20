@@ -30,7 +30,7 @@ class ReaderWriter():
     def writer(self):
         while True:
             self.wrt.acquire()     #wait on write semaphore
-            print("Wrting data.....")  # write the data
+            print("Writing data.....")  # write the data
             print("-"*20)
             self.wrt.release()      #sinal on write semaphore
             time.sleep(10)    
