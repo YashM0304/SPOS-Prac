@@ -16,7 +16,7 @@ class ReaderWriter():
                 self.wrt.acquire() #wait on write semaphore
 
             self.rd.release()     #sinal on read semaphore
-            print(f"Reader {self.readCount} is reading")
+            print(f"Reader {self.readCount} is reading ")
 
             self.rd.acquire()   #wait on read semaphore 
             self.readCount-=1   #reading performed by reader hence decrementing readercount
