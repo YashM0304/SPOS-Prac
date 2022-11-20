@@ -229,3 +229,22 @@ public class Pass1 {
 
 
 }
+
+
+
+/*
+Input.txt
+
+START 200
+ MOVER AREG,='4'
+ MOVEM AREG,A
+ MOVER BREG,='1'
+LOOP MOVER CREG,B
+ LTORG
+ ADD CREG,='6'
+ STOP
+A DS 1
+B DS 1
+ END
+ 
+*/
